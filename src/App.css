@@ -1,0 +1,86 @@
+/* পুরো পেজের জন্য স্টাইল */
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+/* Hero Section */
+h1 {
+  font-size: 2.5rem;
+  color: #2d6cdf;
+  margin-top: 100px;
+  text-align: center;
+}
+
+/* Contact Section */
+.contact {
+  margin-top: 40px;
+  padding: 30px 40px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 520px;
+
+}
+.contact:hover {
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  background-color: #2d6cdf;
+  color: white;
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin: 8px 0;
+}
+
+.contact p:first-child {
+  font-weight: bold;
+  color: #3528a7;
+}
+.contact:hover p:first-child {
+  color: #ffffff;
+}
+
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+    margin-top: 50px;
+  }
+
+  .contact {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .contact p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 1.5rem;
+    margin-top: 50px;
+    padding: 0 10px;
+  }
+
+  .contact {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .contact p {
+    font-size: 1rem;
+  }
+}
