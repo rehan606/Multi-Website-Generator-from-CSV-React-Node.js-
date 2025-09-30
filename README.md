@@ -15,18 +15,19 @@ Each row in the CSV represents one website, and for each entry, a new React appl
 - ☎️ Contact section dynamically displays phone and address from CSV
 - 📂 Auto-creates build folder structure:
 
-
+```
 /build
 ├─ foodexpress.com
 ├─ techhubbd.com
 └─ bookbazaar.com
+```
 
 - 📦 Lightweight – no heavy CSS, only basic styling for alignment
 
 ---
 
 ## 📁 Folder Structure
-
+```
 multi-site-generator/
 ├─ build/ # Auto-generated websites (created after running script)
 ├─ public/
@@ -41,7 +42,7 @@ multi-site-generator/
 ├─ package-lock.json
 ├─ package.json
 └─ vite.config.js
-
+```
 
 
 ---
@@ -86,7 +87,7 @@ npm start
 ## 🧱 Build Output Example
 
 After running the script, you will see:
-
+```
 /build
  ├─ foodexpress.com/
  │   ├─ Hero.jsx
@@ -100,7 +101,7 @@ After running the script, you will see:
      ├─ Hero.jsx
      ├─ Contact.jsx
      └─ index.html
-
+```
 
 ## 📸 Browser Preview
 
@@ -135,7 +136,8 @@ Clean code structure and documentation
 
 Rehan
 Frontend Developer | JavaScript | React | Node.js | Next.js | Express.js | MongoDB | Firebase
-    • LinkedIn : https://www.linkedin.com/in/kh-rehan207/
+
+## • LinkedIn : https://www.linkedin.com/in/kh-rehan207/
 
 
 
