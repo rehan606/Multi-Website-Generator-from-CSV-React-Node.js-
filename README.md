@@ -134,10 +134,10 @@ Clean code structure and documentation
 
 ## 👨‍💻 Author
 
-Rehan
-Frontend Developer | JavaScript | React | Node.js | Next.js | Express.js | MongoDB | Firebase
+**Rehan**  
+Frontend Developer | JavaScript | React | Node.js | Next.js | Express.js | MongoDB | Firebase  
 
-## • LinkedIn : https://www.linkedin.com/in/kh-rehan207/
+🔗 [LinkedIn](https://www.linkedin.com/in/kh-rehan207/)  
 
 
 
