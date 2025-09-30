@@ -5,25 +5,25 @@ import Papa from "papaparse";
 const csvPath = "./src/website.csv";
 const csvData = fs.readFileSync(csvPath, "utf8");
 
-// CSV পার্স করা
+// CSV parse
 const { data } = Papa.parse(csvData, { header: true, skipEmptyLines: true });
 
-// প্রতিটি ওয়েবসাইটের জন্য আলাদা ফোল্ডার বানাও
+
 data.forEach((site) => {
   const folder = `./build/${site.domain}`;
   fs.ensureDirSync(folder);
 
-  // Hero.jsx তৈরি
+  // Create Hero.jsx 
   const heroContent = `
 import React from "react";
 
 export default function Hero() {
-  return <h1>Quick delivery service in Dhaka.</h1>;
+  return <h1>Quick delivery service in Dhaka. </h1>;
 }
   `;
   fs.writeFileSync(`${folder}/Hero.jsx`, heroContent);
 
-  // Contact.jsx তৈরি
+  // Create Contact.jsx
   const contactContent = `
 import React from "react";
 
@@ -38,7 +38,7 @@ export default function Contact() {
   `;
   fs.writeFileSync(`${folder}/Contact.jsx`, contactContent);
 
-  // index.html তৈরি
+  // Create index.html
   const htmlContent = `
 <!DOCTYPE html>
 <html lang="en">

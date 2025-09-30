@@ -1,4 +1,4 @@
-/* পুরো পেজের জন্য স্টাইল */
+/* Style for all pages */
 body {
   font-family: Arial, sans-serif;
   background: #f8f9fa;
@@ -23,16 +23,17 @@ h1 {
 .contact {
   margin-top: 40px;
   padding: 30px 40px;
-  background: white;
+  background-color: #2d6cdf;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   text-align: center;
   width: 520px;
-
+  color: white;
+  transition: all 0.3s ease;
 }
 .contact:hover {
   box-shadow: 0 6px 16px rgba(0,0,0,0.15);
-  background-color: #2d6cdf;
+  background-color: #0e3c91;
   color: white;
   transform: translateY(-4px);
   transition: all 0.3s ease;
@@ -45,13 +46,13 @@ h1 {
 
 .contact p:first-child {
   font-weight: bold;
-  color: #3528a7;
+  color: white;
 }
 .contact:hover p:first-child {
   color: #ffffff;
 }
 
-
+/* Responsive Design */
 @media (max-width: 600px) {
   h1 {
     font-size: 1.8rem;
